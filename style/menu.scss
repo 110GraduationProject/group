@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+$menutext: rgb(241, 242, 243);
+$space: 2rem;
+header {
+  position: fixed;
+  font-family: "Klaxons Regular";
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  .nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: rgba($color: #080808, $alpha: 0.2);
+    width: 100%;
+    z-index: 100;
+    li {
+      margin: 0 1rem;
+      padding: 1rem 0;
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: $menutext;
+        img {
+          width: 2vw;
+          height: 2vw;
+        }
+      }
+    }
+  }
+}
+div.push {
+  height: 0;
+  width: 100%;
+  background: url("../image/tt.jpg");
+  background-size: cover;
+  transition: 0.5s;
+  overflow: hidden;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+
+  div.overlay-content {
+    width: 100%;
+    position: relative;
+    font-family: "Klaxons Regular";
+    button.closebtn {
+      font-size: 2rem;
+      position: relative;
+      left: 95%;
+      top: 10%;
+      margin-top: 0.5rem;
+    }
+    div.row {
+      margin: 2rem 15rem;
+
+      div.team {
+        margin-top: $space;
+        margin-bottom: $space;
+        max-width: 400px;
+        border-radius: 1.25rem;
+        border: solid 2.5px rgba($color: #fff4c7, $alpha: 0);
+        &:hover {
+          transition: linear 0.3s;
+          border: solid 2.5px #fff4c7;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+            0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5),
+            0 0 40px rgba(243, 205, 31, 0.5),
+            0 0 5px rgba(243, 205, 31, 0.5) inset,
+            0 0 10px rgba(243, 205, 31, 0.5) inset,
+            0 0 40px rgba(243, 205, 31, 0.5) inset;
+        }
+        a {
+          text-decoration: none;
+        }
+        div.groupName {
+          font-size: 1.8rem; /*22pt*/
+          color: #ffffff;
+          span {
+            display: none;
+          }
+        }
+        p.groupText {
+          font-size: 1rem;
+          color: #ffffff;
+        }
+      }
+      div.dismiss {
+        visibility: hidden;
+      }
+      div.menulogo {
+        img {
+          max-width: 400px;
+        }
+      }
+      div.decrease {
+        margin-top: -12rem;
+      }
+    }
+    div.icon {
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      bottom: 8%;
+      right: 5%;
+      & :nth-child(4) {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1600px) {
+  div.push {
+    div.overlay-content {
+      div.row {
+        margin: 0 5rem;
+        div.team {
+          margin-top: 0rem;
+          margin-bottom: 0.5rem;
+        }
+        div.menulogo {
+          img {
+            transform: scale(0.75);
+            margin-left: -4.8rem;
+          }
+        }
+        div.decrease {
+          margin-top: -10.5rem;
+        }
+      }
+    }
+  }
+  header {
+    .nav {
+      li {
+        a {
+          img {
+            width: 3vw;
+            height: 3vw;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  div.push {
+    div.overlay-content {
+      div.row {
+        margin: 0 3rem;
+        div.team {
+          margin-top: 0rem;
+          margin-bottom: 0.5rem;
+        }
+        div.menulogo {
+          img {
+            transform: scale(0.7);
+            margin-left: -7.5rem;
+          }
+        }
+        div.decrease {
+          margin-top: -11rem;
+        }
+      }
+    }
+  }
+  header {
+    .nav {
+      li {
+        a {
+          img {
+            width: 5.5vw;
+            height: 5.5vw;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    li {
+      margin: 0 0.75rem;
+      padding: 0.75rem 0;
+      a {
+        font-size: 1.75rem;
+        img {
+          width: 5.5vw;
+          height: 5.5vw;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  div.push {
+    div.overlay-content {
+      button.closebtn {
+        font-size: 1rem;
+        right: 3rem;
+        top: 10%;
+        margin-top: 0.5rem;
+      }
+      div.row {
+        margin: 0.75rem 0 0 0.75rem;
+        div.team {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          div.groupName {
+            font-size: 1rem;
+            span {
+              display: inline-block;
+            }
+          }
+          p.groupText {
+            display: none;
+          }
+        }
+        div.menulogo {
+          img {
+            transform: scale(0.5);
+            margin-left: -7.5rem;
+            margin-top: -5rem;
+          }
+        }
+        div.decrease {
+          margin-top: 0rem;
+        }
+        div.dismiss {
+          visibility: visible;
+        }
+        div.delete {
+          display: none;
+        }
+      }
+      div.icon {
+        flex-direction: row;
+        bottom: 8%;
+        right: 8%;
+        & :nth-child(4) {
+          display: flex;
+        }
+      }
+    }
+  }
+  header {
+    .nav {
+      li {
+        margin: 0;
+        padding: 0.75rem 0;
+        a {
+          font-size: 1.5rem;
+          img {
+            width: 8vw;
+            height: 8vw;
+          }
+        }
+      }
+    }
+  }
+}
