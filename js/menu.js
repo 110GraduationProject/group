@@ -9,3 +9,4 @@ function openNav() {
 document.querySelector('.startbtn').onclick  =()=> openNav();
 document.querySelector('.startbtn2').onclick  =()=> openNav();
 document.querySelector('.closebtn').onclick =()=>closeNav();
+//js
