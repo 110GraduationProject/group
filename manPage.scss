@@ -174,8 +174,8 @@ a{text-decoration: none;}
     display: inline-flex;
   justify-content: center;
     margin: 15px;
-    height: 370px;
-    width: 370px;
+    height: 320px;
+    width: 320px;
     background-color: rgba(255, 255, 255,0.2);
     border: 2px solid rgb(255, 255, 255);
     transition-duration:1s; 
@@ -251,8 +251,8 @@ a{text-decoration: none;}
   .wrap2 .box5_3{@include mobileBoxWidth();}
 
   @mixin teamFrameAttribute {
-    width: 330px;
-  height: 330px;
+    width: 290px;
+  height: 290px;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 15px;
@@ -462,19 +462,20 @@ background-repeat: no-repeat;
     @include TextColor();
   }//留白3
 
-  #sidebarAndContent .about .container{/*可忽略*/
+  #sidebarAndContent .about .container0{/*可忽略*/
     display: flex;
   justify-content: center;
   flex-wrap: wrap;  
     position: relative;
+    width: 100%;
   }
   #sidebarAndContent .date{
     position: absolute;
     @include aboutDateBG();
     opacity: 0.8;
     background-size: cover;
-  background-position: center;
-    right: -12vw;
+    background-position: center;
+    right: 5vw;
     bottom: 5vw;
     width: 15vw;
     height: 15vw;
