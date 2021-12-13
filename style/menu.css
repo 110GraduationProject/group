@@ -1,7 +1,31 @@
+menu.css
+擁有存取權的使用者
+鄭
+陳
+系統屬性
+類型
+CSS 樣式表
+大小
+6 KB
+儲存空間使用量
+11 KB
+位置
+style
+擁有者
+鄭欣瑜
+上次修改日期
+Jie Fu於 2021年12月10日修改過
+上次開啟日期
+我於 下午3:18開啟過
+建立日期
+2021年12月4日
+新增說明
+檢視者可以下載
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 header {
@@ -11,23 +35,33 @@ header {
   top: 0;
   z-index: 100;
 }
+
 header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: rgba(8, 8, 8, 0.2);
   width: 100%;
   z-index: 100;
 }
+
 header .nav li {
   margin: 0 1rem;
   padding: 1rem 0;
 }
+
 header .nav li a {
   text-decoration: none;
   font-size: 2rem;
   color: #f1f2f3;
 }
+
 header .nav li a img {
   width: 2vw;
   height: 2vw;
@@ -38,17 +72,20 @@ div.push {
   width: 100%;
   background: url("../image/tt.jpg");
   background-size: cover;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   overflow: hidden;
   position: fixed;
   z-index: 100;
   top: 0;
 }
+
 div.push div.overlay-content {
   width: 100%;
   position: relative;
   font-family: "Klaxons Regular";
 }
+
 div.push div.overlay-content button.closebtn {
   font-size: 2rem;
   position: relative;
@@ -56,9 +93,11 @@ div.push div.overlay-content button.closebtn {
   top: 10%;
   margin-top: 0.5rem;
 }
+
 div.push div.overlay-content div.row {
   margin: 2rem 15rem;
 }
+
 div.push div.overlay-content div.row div.team {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -66,42 +105,59 @@ div.push div.overlay-content div.row div.team {
   border-radius: 1.25rem;
   border: solid 2.5px rgba(255, 244, 199, 0);
 }
+
 div.push div.overlay-content div.row div.team:hover {
+  -webkit-transition: linear 0.3s;
   transition: linear 0.3s;
   border: solid 2.5px #fff4c7;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
 }
+
 div.push div.overlay-content div.row div.team a {
   text-decoration: none;
 }
+
 div.push div.overlay-content div.row div.team div.groupName {
   font-size: 1.8rem;
   /*22pt*/
   color: #ffffff;
 }
+
 div.push div.overlay-content div.row div.team div.groupName span {
   display: none;
 }
+
 div.push div.overlay-content div.row div.team p.groupText {
   font-size: 1rem;
   color: #ffffff;
 }
+
 div.push div.overlay-content div.row div.dismiss {
   visibility: hidden;
 }
+
 div.push div.overlay-content div.row div.menulogo img {
   max-width: 400px;
 }
+
 div.push div.overlay-content div.row div.decrease {
   margin-top: -12rem;
 }
+
 div.push div.overlay-content div.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   bottom: 8%;
   right: 5%;
 }
+
 div.push div.overlay-content div.icon :nth-child(4) {
   display: none;
 }
@@ -115,18 +171,19 @@ div.push div.overlay-content div.icon :nth-child(4) {
     margin-bottom: 0.5rem;
   }
   div.push div.overlay-content div.row div.menulogo img {
-    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
     margin-left: -4.8rem;
   }
   div.push div.overlay-content div.row div.decrease {
     margin-top: -10.5rem;
   }
-
   header .nav li a img {
     width: 3vw;
     height: 3vw;
   }
 }
+
 @media screen and (max-width: 1200px) {
   div.push div.overlay-content div.row {
     margin: 0 3rem;
@@ -136,18 +193,19 @@ div.push div.overlay-content div.icon :nth-child(4) {
     margin-bottom: 0.5rem;
   }
   div.push div.overlay-content div.row div.menulogo img {
-    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
     margin-left: -7.5rem;
   }
   div.push div.overlay-content div.row div.decrease {
     margin-top: -11rem;
   }
-
   header .nav li a img {
     width: 5.5vw;
     height: 5.5vw;
   }
 }
+
 @media screen and (max-width: 768px) {
   .nav li {
     margin: 0 0.75rem;
@@ -161,6 +219,7 @@ div.push div.overlay-content div.icon :nth-child(4) {
     height: 5.5vw;
   }
 }
+
 @media screen and (max-width: 576px) {
   div.push div.overlay-content button.closebtn {
     font-size: 1rem;
@@ -185,7 +244,8 @@ div.push div.overlay-content div.icon :nth-child(4) {
     display: none;
   }
   div.push div.overlay-content div.row div.menulogo img {
-    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
     margin-left: -7.5rem;
     margin-top: -5rem;
   }
@@ -199,14 +259,18 @@ div.push div.overlay-content div.icon :nth-child(4) {
     display: none;
   }
   div.push div.overlay-content div.icon {
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     bottom: 8%;
     right: 8%;
   }
   div.push div.overlay-content div.icon :nth-child(4) {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
-
   header .nav li {
     margin: 0;
     padding: 0.75rem 0;
@@ -218,4 +282,5 @@ div.push div.overlay-content div.icon :nth-child(4) {
     width: 8vw;
     height: 8vw;
   }
-}/*# sourceMappingURL=menu.css.map */
+}
+/*# sourceMappingURL=menu.css.map */
