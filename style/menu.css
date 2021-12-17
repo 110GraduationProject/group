@@ -113,6 +113,10 @@ div.push div.overlay-content div.icon :nth-child(4) .h1 {
   font-size: calc(1.325rem + 0.9vw);
 }
 
+.occupation p{
+  width:135px;
+}
+
 @media screen and (max-width: 1600px) {
   div.push div.overlay-content div.row {
     margin: 0 5rem;
