@@ -170,7 +170,7 @@
   color: aliceblue;
 }
 
-.person.photo1 img{
+.person .photo1 img{
 	width:97px;
 	height:97px;
 	border-radius: 10%;
