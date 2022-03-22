@@ -1,0 +1,1434 @@
+@charset "UTF-8";
+@font-face {
+  font-family: ChineseType;
+  src: url(font/GenJyuuGothicX-Monospace-Regular.ttf);
+}
+
+@font-face {
+  font-family: EnglishType;
+  src: url(font/Klaxons.otf);
+}
+
+body {
+  background-image: url(image/tt.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.LTicon2 {
+  z-index: -1;
+  position: fixed;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position: right;
+  top: 4vw;
+  opacity: 0.7;
+  width: 17vw;
+  height: 174px;
+  background-image: url(image/LTicon.png);
+}
+
+.nav-link {
+  height: 4vw;
+}
+
+#sidebarAndContent {
+  margin-top: 2vw;
+  height: auto;
+  color: black;
+  /*可忽略*/
+}
+
+.sidebar {
+  position: fixed;
+  margin-top: 40vh;
+  margin-left: 5vw;
+  z-index: 5;
+  height: auto;
+  height: 15vw;
+  width: 15vw;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.projectS:hover {
+  text-decoration: underline;
+}
+
+.aboutS:hover {
+  text-decoration: underline;
+}
+
+.mapS:hover {
+  text-decoration: underline;
+}
+
+.sidebar a {
+  color: white;
+  font-family: EnglishType;
+}
+
+.content {
+  margin-top: 3vw;
+}
+
+.content .wrap1 {
+  margin-left: 10vw;
+}
+
+.Work0 {
+  margin-left: 10vw;
+  margin-top: 10vw;
+  font-size: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+  color: white;
+  font-family: EnglishType;
+}
+
+.Work {
+  position: relative;
+  margin-left: 10vw;
+  margin-top: 15vw;
+  margin-bottom: 5vw;
+  width: auto;
+  font-size: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+  color: white;
+  font-family: EnglishType;
+}
+
+.line1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.line7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+}
+
+.box1_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box1_1:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box1_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box1_2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box1_3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box1_3:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box2_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box2_1:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box2_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box2_2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box3_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box3_1:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box3_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box3_2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box3_3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box3_3:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box4_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box4_1:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box4_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box4_2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box5_1 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box5_1:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box5_2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box5_2:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.box5_3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  height: 320px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.box5_3:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff4c7;
+  -webkit-box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+          box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+}
+
+.wrap2 {
+  width: 100%;
+  margin: 3vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap2 .box1_1 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box1_2 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box1_3 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box2_1 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box2_2 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box3_1 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box3_2 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box3_3 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box4_1 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box4_2 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box5_1 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box5_2 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.wrap2 .box5_3 {
+  width: auto;
+  height: auto;
+  margin: 2vw;
+}
+
+.teamName {
+  font-family: ChineseType;
+  color: transparent;
+  background-color: transparent;
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.teamName03 {
+  font-family: ChineseType;
+  color: transparent;
+  background-color: transparent;
+  display: block;
+  margin-top: 190px;
+  padding-top: 30px;
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.teamName04 {
+  font-family: ChineseType;
+  color: transparent;
+  background-color: transparent;
+  display: block;
+  margin-top: 190px;
+  padding-top: 30px;
+  height: 100px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.team1BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_1_330.jpg);
+}
+
+.team2BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_2_330.jpg);
+}
+
+.team3BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_3_330.jpg);
+}
+
+.team4BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_4_330.png);
+}
+
+.team5BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_5_330.jpg);
+}
+
+.team6BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_6_330.png);
+}
+
+.team7BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_7_330.png);
+}
+
+.team8BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_8_330.png);
+}
+
+.team9BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_9_330.jpg);
+}
+
+.team10BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_10_330.png);
+}
+
+.team11BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_11_330.jpg);
+}
+
+.team12BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_12_330.png);
+}
+
+.team13BG {
+  width: 290px;
+  height: 290px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 15px;
+  background-image: url(image/group_13_330.png);
+}
+
+.team1BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team2BG:hover .teamName04 {
+  display: block;
+  margin-top: 190px;
+  padding-top: 30px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team3BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team4BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team5BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team6BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team7BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team8BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team9BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team10BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team11BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team12BG:hover .teamName {
+  display: block;
+  margin-top: 190px;
+  padding-top: 25px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 35px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.team13BG:hover .teamName03 {
+  display: block;
+  margin-top: 190px;
+  padding-top: 30px;
+  height: 100px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-family: ChineseType;
+}
+
+.wrap2 .team1BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team2BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team3BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team4BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team5BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team6BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team7BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team8BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team9BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team10BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team11BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team12BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.wrap2 .team13BG {
+  width: 40vw;
+  height: 40vw;
+  margin: 1vw;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.Work_ {
+  width: 100%;
+}
+
+#sidebarAndContent .empty1 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 10vw;
+  background-color: white;
+  border: 1px solid red;
+  /*可忽略*/
+}
+
+#sidebarAndContent .empty2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 10vw;
+  background-color: white;
+  border: 1px solid red;
+  /*可忽略*/
+}
+
+#sidebarAndContent .empty3 {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  padding: 2vw;
+  color: white;
+  text-align: center;
+  font-size: 1vw;
+  color: white;
+  font-family: ChineseType;
+}
+
+#sidebarAndContent .about .container0 {
+  /*可忽略*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+}
+
+#sidebarAndContent .date {
+  position: absolute;
+  background-image: url(image/about_date.png);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  right: 5vw;
+  bottom: 5vw;
+  width: 15vw;
+  height: 15vw;
+  text-align: center;
+}
+
+#sidebarAndContent .date .dateText {
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 1.7vw;
+  color: white;
+  font-family: ChineseType;
+  color: black;
+}
+
+#sidebarAndContent .about .description {
+  position: relative;
+  margin-left: 0vw;
+  margin-bottom: 5vw;
+  margin-top: 10vw;
+  width: 55vw;
+  height: 35vw;
+  background-size: 55vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(image/aboutBG.png);
+  color: white;
+  font-family: ChineseType;
+}
+
+#sidebarAndContent .about .description2 {
+  position: relative;
+  padding: 0;
+  margin-bottom: 5vw;
+  width: 100%;
+  height: 52vw;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(image/aboutBG.png);
+  color: white;
+  font-family: ChineseType;
+}
+
+.copywriting1 {
+  font-family: ChineseType;
+  letter-spacing: 0.5vw;
+  margin-top: 6vw;
+  text-align: center;
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+
+.copywriting2 {
+  font-family: ChineseType;
+  letter-spacing: 0.5vw;
+  line-height: 6vw;
+  margin-top: 5vw;
+  text-align: center;
+  font-size: 3vw;
+  text-decoration: none;
+}
+
+#sidebarAndContent .about img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.map1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+.map1 .bigmap {
+  margin-left: 13vw;
+  margin-top: 10vw;
+  width: 40vw;
+  height: 30vw;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map1 .bigmap2 {
+  padding: 2vw;
+  width: 80vw;
+  height: 60vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 4px solid white;
+}
+
+.map1 .content2 {
+  display: inline-block;
+  margin-top: 7vw;
+  margin-left: 4vw;
+}
+
+.map1 .content3 {
+  display: inline-block;
+  width: 80vw;
+}
+
+.map1 .traffic {
+  margin-top: 10vw;
+  margin-bottom: 3vw;
+  padding-top: 0.7vw;
+  width: 15vw;
+  height: 5vw;
+  text-align: center;
+  font-size: 2.5vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  font-family: ChineseType;
+}
+
+.map1 .addressAndTime {
+  width: 25vw;
+  height: 15vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  font-size: 2vw;
+  padding-left: 7vw;
+  padding-top: 4.5vw;
+  color: white;
+  font-family: ChineseType;
+}
+
+.map1 .traffic2 {
+  margin-top: 4vw;
+  padding: 1.5vw;
+  width: 30vw;
+  height: 10vw;
+  text-align: center;
+  font-size: 4.5vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  font-family: ChineseType;
+}
+
+.map1 .addressAndTime2 {
+  margin-top: 4vw;
+  width: 45vw;
+  height: 30vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  font-size: 4vw;
+  padding-left: 11vw;
+  padding-top: 7vw;
+  margin-bottom: 3vw;
+  color: white;
+  font-family: ChineseType;
+}
+
+.Map20 {
+  position: relative;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  font-size: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  height: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 10vw;
+  color: white;
+  font-family: EnglishType;
+}
+
+.map2 {
+  position: relative;
+  height: 50vw;
+}
+
+.map2 .trainAndHighrail {
+  position: absolute;
+  top: 10vw;
+  left: 21.5vw;
+}
+
+.map2 .train {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 25vw;
+}
+
+.map2 .train .trainTitle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 2.5vw;
+  color: white;
+  font-family: ChineseType;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+}
+
+.map2 .train .trainContent {
+  width: 35vw;
+  height: 20vw;
+  margin-top: 5vw;
+  color: white;
+  font-family: ChineseType;
+  font-size: 1.2vw;
+}
+
+.map2 .midleLine {
+  position: absolute;
+  top: 0vw;
+  left: 35vw;
+  width: 2px;
+  height: 30vw;
+  background-color: white;
+}
+
+.map2 .highRail {
+  position: absolute;
+  top: 0vw;
+  left: 41vw;
+  width: 30vw;
+  height: 25vw;
+}
+
+.map2 .highRail .highRailTitle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 2.5vw;
+  color: white;
+  font-family: ChineseType;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+}
+
+.map2 .highRail .highRailContent {
+  width: 35vw;
+  height: 20vw;
+  margin-top: 5vw;
+  color: white;
+  font-family: ChineseType;
+  font-size: 1.2vw;
+}
+
+.map3 {
+  position: relative;
+}
+
+.map3 .trainAndHighrail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: auto;
+}
+
+.map3 .train {
+  width: 80vw;
+  height: 60vw;
+}
+
+.map3 .train .trainTitle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2vw;
+  color: white;
+  font-family: ChineseType;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  font-size: 7vw;
+}
+
+.map3 .train .trainContent {
+  width: 70vw;
+  height: 40vw;
+  margin-top: 7vw;
+  margin-left: 10vw;
+  color: white;
+  font-family: ChineseType;
+  font-size: 3vw;
+}
+
+.map3 .highRail {
+  margin-top: 12vw;
+  top: 0vw;
+  left: 41vw;
+  width: 80vw;
+  height: 60vw;
+  margin-bottom: 15vw;
+}
+
+.map3 .highRail .highRailTitle {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 2vw;
+  color: white;
+  font-family: ChineseType;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  font-size: 7vw;
+}
+
+.map3 .highRail .highRailContent {
+  width: 70vw;
+  height: 40vw;
+  margin-top: 7vw;
+  margin-left: 10vw;
+  color: white;
+  font-family: ChineseType;
+  font-size: 3vw;
+}
+/*# sourceMappingURL=manPage.css.map */
