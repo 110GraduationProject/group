@@ -27,12 +27,12 @@ header .nav li a {
   text-decoration: none;
   font-size: 2rem;
   color: #f1f2f3;
+  cursor: pointer;
 }
 header .nav li a img {
   width: 2vw;
   height: 2vw;
 }
-
 div.push {
   height: 0;
   width: 100%;
@@ -71,7 +71,11 @@ div.push div.overlay-content div.row div.team {
 div.push div.overlay-content div.row div.team:hover {
   transition: linear 0.3s;
   border: solid 2.5px #fff4c7;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5), 0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset, 0 0 10px rgba(243, 205, 31, 0.5) inset, 0 0 40px rgba(243, 205, 31, 0.5) inset;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(243, 205, 31, 0.5),
+    0 0 40px rgba(243, 205, 31, 0.5), 0 0 5px rgba(243, 205, 31, 0.5) inset,
+    0 0 10px rgba(243, 205, 31, 0.5) inset,
+    0 0 40px rgba(243, 205, 31, 0.5) inset;
 }
 div.push div.overlay-content div.row div.team a {
   text-decoration: none;
@@ -225,4 +229,4 @@ div.push div.overlay-content div.icon :nth-child(4) .h1 {
     width: 8vw;
     height: 8vw;
   }
-}/*# sourceMappingURL=menu.css.map */
+} /*# sourceMappingURL=menu.css.map */
